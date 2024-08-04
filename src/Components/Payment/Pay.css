@@ -1,0 +1,69 @@
+.pay-button {
+    position: relative;
+  border-radius: 1em;
+  /* border: 0.5em;
+  border-color: #ffffff; */
+  margin: 0.5em 1em;
+  font-size: 1.2em;
+  font-weight: 700;
+  font-family: "Exo 2", sans-serif; /* Используем тот же шрифт */
+  background: linear-gradient(
+    150deg,
+    rgba(63, 161, 251, 1) 0%,
+    rgba(252, 70, 168, 1) 100%
+  );
+  color: #fde9ff; /* Цвет текста аналогичный заголовку */
+  cursor: pointer;
+  transition: all 0.25s ease; /* Плавные переходы */
+  overflow: hidden;
+  position: relative;
+  /* width: 5rem; */
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  }
+  
+  /* .pay-button:hover {
+    background-color: #66b2ca;
+    color: #d3d3d3;
+  }
+  
+  .pay-button.active {
+    background-color: #64ff71;
+    color: #ffffff;
+  } */
+  
+  .pay-button.inactive {
+  background-color: #f6f1dd;
+  color: #ffffff;
+  }
+  
+
+
+
+/* .pay{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    margin: 0.5em 1em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #d3d3d3;
+    color: #242424;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    text-align: center;
+    
+  }
+  .pay:hover {
+    border-color: #d3d3d3;
+    background-color: #66b2ca;
+    color: #d3d3d3;
+  }
+  .pay:focus,
+  .pay:focus-visible {
+    background-color: #64ff71;
+    color: #ffffff;
+} */

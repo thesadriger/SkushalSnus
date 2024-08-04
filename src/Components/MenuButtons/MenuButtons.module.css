@@ -1,0 +1,68 @@
+.button {
+      border-radius: 1em;
+      border: 1.5px solid transparent;
+      margin: 0.5em 1em;
+      font-size: 1em;
+      font-weight: 500;
+      font-family: inherit;
+      background-color: #66b2ca;
+      border-color: #fff;
+      color: #242424;
+      cursor: pointer;
+      /* transition: border-color 0.25s; */
+      transition: 
+    border-color 0.25s ease-in-out,
+    background-color 0.25s ease-in-out,
+    color 0.25s ease-in-out,
+    width 0.3s ease-in-out,
+    height 0.3s ease-in-out,
+    transform 0.3s ease-in-out; /* Плавные переходы для различных свойств */
+      overflow: hidden; /* Ensure the image and content don't overflow the button */
+      width: 10rem;
+      height: 13rem;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    
+  }
+  .button:hover {
+    width: 11rem;
+    height: 14rem;
+    border-color: #fff;
+    background-color: #66b2ca;
+    color: #fff;
+    z-index: 2;
+  }
+  .button:focus,
+  .button:focus-visible {
+    width: 13rem;
+    height: 16rem;
+    background-color: #f5a860;
+    color: #ffffff;
+    z-index: 2;
+  }
+  
+  .card-content{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  .button:active{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+  }
+  .button:not-active{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+  }

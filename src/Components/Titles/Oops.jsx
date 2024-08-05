@@ -7,7 +7,7 @@ export default function Oops() {
             <div className="title-wrapper">
                 <h1 className="sweet-title">
                     <span data-text="Упс!">Упс!</span>
-                    <span data-text="Приложение в работе">Приложение в работе</span>
+                    <span data-text="Нет доступа">Нет доступа</span>
                 </h1>
             </div>
         </section>

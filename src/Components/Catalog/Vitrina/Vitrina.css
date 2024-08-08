@@ -1,0 +1,54 @@
+.vitrina-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-width: 200px; /* Ограничиваем максимальную ширину контейнера */
+  padding: 2rem; /* Добавляем отступы от края */
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    padding: 1rem 1rem; */
+  }
+  
+  .vitrina-wrapper {
+    display: flex;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  margin-bottom: 1rem; /* Отступ снизу */
+
+    /* flex: 2;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    touch-action: none;
+    width: 100%; */
+  }
+  .vitrina-inner {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease; /* Плавный переход при изменении индекса */
+    width: 100%;
+  }
+  
+  .vitrina-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-content {
+    border: none;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    cursor: pointer;
+  }
+  

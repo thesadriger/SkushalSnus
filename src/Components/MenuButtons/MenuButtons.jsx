@@ -1,7 +1,5 @@
 import classes from './MenuButtons.module.css'
 
-
-
 export default function MenuButtons({ children, onClick, isActive}) { 
     const handleMouseEnter = () => console.log('entered')
     return (

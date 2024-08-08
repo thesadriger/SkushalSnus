@@ -33,27 +33,25 @@ export default function App() {
         <Header/>
       <main>
         {/* <IntroSection/> */}
-        {/* <TabSection active={tab} onChange={(current) => setTab(current)} /> */}
+        <TabSection active={tab} onChange={(current) => setTab(current)} />
         {tab === 'main' && (
         <>
           <div onClick={handlePayClick}>
             <Pay isActive={isPayActive} />
           </div>
-          <Section1/>
           <Section2
             onMainClick={handleMainClick}
             sectionRef={sectionRef}
             contentType={contentType}
             setContentType={setContentType} />
+          <Section1/>
+          
         </>
         )}
 
-        {tab === 'shop' && <ShopSection/>}
-        {tab === 'store' && (
-        <>
-          <StoreSection/>
-        </>
-        )}
+        {tab === 'collection' && <ShopSection/>}
+        {tab === 'profile' && <StoreSection/>}
+        {tab === 'store' && <StoreSection/>}
       </main>
     </>
   )

@@ -48,28 +48,31 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    user-select: none;
   }
   
-  .carousel-button:hover {
+  /* .carousel-button:hover {
     background-color: rgba(255, 255, 255, 0.1);
   }
 
   .carousel-button:active {
-    background-color: rgba(255, 255, 255, 0.1); /* 10% прозрачности */
-  }
+    background-color: rgba(255, 255, 255, 0.1);
+  } */
   
   .carousel-button.prev {
     left: 0;
     height: 100%;
-    width: 7rem;
+    width: 10rem;
     border-radius: 0 50% 50% 0;
+    user-select: none;
   }
   
   .carousel-button.next {
     right: 0;
     height: 100%;
-    width: 7rem;
+    width: 10rem;
     border-radius: 50% 0 0 50%;
+    user-select: none;
   }
   
   .carousel-indicators {
